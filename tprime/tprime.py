@@ -49,4 +49,8 @@ if __name__ == "__main__":
     print("STANDARD UNCERTAINTY for Sample 1: ", sunc1)
     print("STANDARD UNCERTAINTY for Sample 2: ", sunc2)
 
-    
+    # calculate t'
+    tPrime = (mean1 - mean2) / np.sqrt(sunc1**2 + sunc2**2)
+
+    # output t'
+    print("t' calculation: ", tPrime)
