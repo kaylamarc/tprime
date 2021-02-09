@@ -24,3 +24,11 @@ if __name__ == "__main__":
         s2.append(float(input()))
 
     print("Sample 2: ", s2)
+    
+    # calculate the mean for each sample
+    mean1 = np.mean(s1)
+    mean2 = np.mean(s2)
+
+    # output the means
+    print("MEAN for Sample 1: ", mean1)
+    print("MEAN for Sample 2: ", mean2)
