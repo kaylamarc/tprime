@@ -32,3 +32,11 @@ if __name__ == "__main__":
     # output the means
     print("MEAN for Sample 1: ", mean1)
     print("MEAN for Sample 2: ", mean2)
+    
+    # find the standard deviation for each sample
+    sdev1 = np.std(s1)
+    sdev2 = np.std(s2)
+
+    # print the standard deviations
+    print("STANDARD DEVIATION for Sample 1: ", sdev1)
+    print("STANDARD DEVIATION for Sample 2: ", sdev2)
