@@ -40,3 +40,13 @@ if __name__ == "__main__":
     # print the standard deviations
     print("STANDARD DEVIATION for Sample 1: ", sdev1)
     print("STANDARD DEVIATION for Sample 2: ", sdev2)
+    
+    # calculate the standard uncertainty for each sample
+    sunc1 = sdev1 / np.sqrt(count1)
+    sunc2 = sdev2 / np.sqrt(count2)
+
+    # output the standard uncertainty for each sample
+    print("STANDARD UNCERTAINTY for Sample 1: ", sunc1)
+    print("STANDARD UNCERTAINTY for Sample 2: ", sunc2)
+
+    
